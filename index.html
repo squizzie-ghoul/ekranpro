@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ЭкранПро — магазин ЖК-телевизоров и плазменных панелей</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="header">
+    <img src="images/logo.png" alt="Логотип ЭкранПро" class="header__logo">
+    <div>
+        <div class="header__title">Экран <span>Про</span></div>
+        <div class="header__subtitle">Телевизоры для вашего дома</div>
+    </div>
+</header>
+
+<div class="layout">
+
+    <aside class="sidebar">
+        <h2 class="sidebar__title">Меню</h2>
+        <ul class="menu">
+            <li class="menu__item"><a href="index.html" class="menu__link menu__link--active">Главная</a></li>
+            <li class="menu__item"><a href="about-author.html" class="menu__link">Об авторе</a></li>
+            <li class="menu__item"><a href="about-company.html" class="menu__link">О фирме</a></li>
+            <li class="menu__item"><a href="lcd-tv.html" class="menu__link">ЖК-телевизоры</a></li>
+            <li class="menu__item"><a href="plasma.html" class="menu__link">Плазменные панели</a></li>
+            <li class="menu__item"><a href="smart-tv.html" class="menu__link">Smart TV</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+
+        <section class="hero">
+            <div class="hero__label">Телевизоры для вашего дома</div>
+            <h1 class="hero__title">Яркие эмоции<br><span>на большом экране</span></h1>
+            <p class="hero__text">
+                Современные телевизоры с потрясающим качеством изображения,
+                широким выбором моделей и выгодными условиями покупки.
+            </p>
+            <a href="lcd-tv.html" class="hero__btn">Перейти в каталог →</a>
+        </section>
+
+        <section class="features">
+        <div class="feature">
+            <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="1" y="3" width="15" height="13"></rect>
+                <polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon>
+                <circle cx="5.5" cy="18.5" r="2.5"></circle>
+                <circle cx="18.5" cy="18.5" r="2.5"></circle>
+            </svg>
+            <div class="feature__title">Быстрая доставка</div>
+            <div class="feature__text">по всей России</div>
+        </div>
+
+        <div class="feature">
+            <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+            <div class="feature__title">Гарантия</div>
+            <div class="feature__text">от производителя</div>
+        </div>
+
+        <div class="feature">
+            <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+            <div class="feature__title">Только оригинальная</div>
+            <div class="feature__text">продукция</div>
+        </div>
+
+        <div class="feature">
+            <svg class="feature__icon" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M3 18v-6a9 9 0 0 1 18 0v6"></path>
+                <path d="M21 19a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3zM3 19a2 2 0 0 0 2 2h1a2 2 0 0 0 2-2v-3a2 2 0 0 0-2-2H3z"></path>
+            </svg>
+            <div class="feature__title">Поддержка</div>
+            <div class="feature__text">на всех этапах покупки</div>
+        </div>
+    </section>
+
+        <h2 class="categories-title">Популярные категории</h2>
+        <section class="categories">
+            <a href="lcd-tv.html" class="category">
+                <img src="images/lcd1.jpg" alt="4K" class="category__img">
+                <div>
+                    <div class="category__name">4K Ultra HD</div>
+                    <div class="category__desc">Максимальная детализация</div>
+                </div>
+            </a>
+            <a href="lcd-tv.html" class="category">
+                <img src="images/lcd2.jpg" alt="QLED" class="category__img">
+                <div>
+                    <div class="category__name">QLED</div>
+                    <div class="category__desc">Яркие цвета и глубокий контраст</div>
+                </div>
+            </a>
+            <a href="plasma.html" class="category">
+                <img src="images/plasma1.jpg" alt="OLED" class="category__img">
+                <div>
+                    <div class="category__name">OLED</div>
+                    <div class="category__desc">Настоящий чёрный цвет</div>
+                </div>
+            </a>
+            <a href="smart-tv.html" class="category">
+                <img src="images/smart1.jpg" alt="Smart TV" class="category__img">
+                <div>
+                    <div class="category__name">Смарт ТВ</div>
+                    <div class="category__desc">Доступ к любимым сервисам</div>
+                </div>
+            </a>
+        </section>
+
+        <h2 class="categories-title">Добро пожаловать в «ЭкранПро»!</h2>
+        <p class="content__text">
+            Наш магазин предлагает широкий ассортимент современных ЖК-телевизоров,
+            плазменных панелей и устройств Smart TV от ведущих мировых производителей:
+            Samsung, LG, Sony, Philips и других.
+        </p>
+        <p class="content__text">
+            Мы работаем с 2008 года и за это время помогли тысячам клиентов подобрать
+            идеальную технику для дома и офиса. У нас вы найдёте модели с диагональю
+            от 24 до 85 дюймов, поддержкой 4K UHD, HDR и голосовым управлением.
+        </p>
+        <p class="content__text">
+            Воспользуйтесь меню слева, чтобы перейти к интересующей вас категории товаров
+            или узнать больше о нашей компании.
+        </p>
+
+    </main>
+
+</div>
+
+<footer class="footer">
+    <p>&copy; 2008–2026 «ЭкранПро». Все права защищены.</p>
+    <p>Связь с нами: <a href="mailto:info@ekranpro.ru">info@ekranpro.ru</a></p>
+</footer>
+
+</body>
+</html>
